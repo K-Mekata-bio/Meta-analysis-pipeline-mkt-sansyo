@@ -109,4 +109,4 @@ After the processing for each SRP is completed, the script returns to the origin
 
 # Summary
 
-This enhanced script is designed for the automated batch processing of SRA data. It features improved error handling and additional processing steps. The script reads a list of SRPs, retrieves associated SRRs, and processes them by downloading, converting to FASTQ, trimming, quality controlling, and quantifying. The script handles both single-end and paired-end reads and logs errors to an error log file.
+This enhanced script is designed for the automated batch processing of SRA data. It features improved error handling and additional processing steps. The script reads a list of SRPs, retrieves associated SRRs, and processes them by downloading, converting to FASTQ, trimming, quality controlling, and quantifying. The script handles both single-end and paired-end reads and logs errors to an error log file. I would like to thank sansyo([github.com/sansyo](https://github.com/sansyo)) for teaching us the basics of programming and how to use GCP.
