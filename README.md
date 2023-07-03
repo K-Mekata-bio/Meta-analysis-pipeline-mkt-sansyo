@@ -1,6 +1,6 @@
 # Meta-analysis of RNA-seq
 
-This shell script is an advanced version designed for the batch processing of SRA (Sequence Read Archive) data. The script is responsible for downloading SRA data, converting SRA files to FASTQ format, trimming and quality control, and quantification using Salmon.
+This shell script is an advanced version designed for the batch processing of SRA (Sequence Read Archive) data. The script is responsible for downloading SRA data, converting SRA files to FASTQ format, trimming and quality control, and quantification using Salmon. The operating environment is described in "env.sh".
 
 ## Defining the List of SRPs
 
@@ -109,6 +109,4 @@ After the processing for each SRP is completed, the script returns to the origin
 
 # Summary
 
-This enhanced script is designed
-
- for the automated batch processing of SRA data. It features improved error handling and additional processing steps. The script reads a list of SRPs, retrieves associated SRRs, and processes them by downloading, converting to FASTQ, trimming, quality controlling, and quantifying. The script handles both single-end and paired-end reads and logs errors to an error log file.
+This enhanced script is designed for the automated batch processing of SRA data. It features improved error handling and additional processing steps. The script reads a list of SRPs, retrieves associated SRRs, and processes them by downloading, converting to FASTQ, trimming, quality controlling, and quantifying. The script handles both single-end and paired-end reads and logs errors to an error log file.
