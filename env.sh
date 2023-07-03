@@ -22,6 +22,3 @@ conda install pigz
 
 # install jq
 sudo apt-get install jq
-
-# create salmon index
-salmon index -p 32 -t Homo_sapiens.GRCh38.cdna.all.fa -i salmon_index -k 31
