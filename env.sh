@@ -19,3 +19,4 @@ conda install -c bioconda sra-tools=3.0.5
 
 # install pigz
 conda install pigz
+
