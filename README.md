@@ -1,6 +1,8 @@
 # Meta-analysis of RNA-seq
 
 This shell script is an advanced version designed for the batch processing of SRA (Sequence Read Archive) data. The script is responsible for downloading SRA data, converting SRA files to FASTQ format, trimming and quality control, and quantification using Salmon. The operating environment is described in "env.sh".
+ 
+Create a folder named "(current directory)/salmon_index" and put the index file in it!
 
 ## Defining the List of SRPs
 
